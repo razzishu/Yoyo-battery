@@ -94,9 +94,8 @@ Get instant release updates, beta builds, and direct APK drops from the official
 * **[Join @Yoyoapps on Telegram](https://t.me/Yoyoapps)**
 
 ### Option 3: F-Droid (Official Repository)
-Yoyo Battery is 100% free and open-source software and is submitted to the official **F-Droid** repository via `fdroiddata`.
+Yoyo Battery is 100% free and open-source software and is submitted to the official **F-Droid** repository.
 * **Package Name**: `com.yoyo.battery.dashboard`
-* **Metadata Recipe**: [`fdroid/com.yoyo.battery.dashboard.yml`](fdroid/com.yoyo.battery.dashboard.yml)
 
 ---
 
