@@ -1,0 +1,45 @@
+Categories:
+  - System
+  - Utilities
+License: GPL-3.0-or-later
+AuthorName: razzishu
+SourceCode: https://github.com/razzishu/Yoyo-battery
+IssueTracker: https://github.com/razzishu/Yoyo-battery/issues
+Changelog: https://github.com/razzishu/Yoyo-battery/blob/main/CHANGELOG.md
+
+AutoName: Yoyo Battery
+Summary: Next-generation battery health, live charging telemetry & hardware diagnostics
+Description: |-
+  Yoyo Battery is an open-source, privacy-first Android battery companion and deep hardware monitor.
+  Built entirely with Kotlin and Jetpack Compose Material You, it provides laboratory-grade insights
+  into battery charging wattage, real chemical battery health, per-app battery drain, and authentic
+  Linux kernel hardware specifications.
+
+  Features:
+  * Futuristic Automotive Tachometer Battery Gauge with 22-tick radial arc and pulsing glow
+  * Live Charging Telemetry in Watts (W), Current (mA), Voltage (V), and Temperature (°C)
+  * Coulomb Integration & Multi-Session Real Battery Health Engine (up to 98% precision)
+  * Deep Hardware & System Diagnostics Engine with live kernel EAS CPU core MHz
+  * Multi-Camera optical specifications (Micron pixel pitch, FOV, RAW, and Camera2 tiers)
+  * Material You Adaptive Palette with iOS-style glassmorphic modal sheets
+  * Local offline SQLite database with Day, Week, Month, and All-Time history
+  * CSV and JSON data export and restore
+  * Battery protection alarms (80% / 20%) and thermal alerts with nightly quiet hours
+  * Compact status bar ongoing notification and resizable home screen widgets
+  * 100% offline, zero trackers, and zero ads
+
+RepoType: git
+Repo: https://github.com/razzishu/Yoyo-battery.git
+
+Builds:
+  - versionName: 2.0.5
+    versionCode: 3
+    commit: v2.0.5
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
+CurrentVersion: 2.0.5
+CurrentVersionCode: 3
